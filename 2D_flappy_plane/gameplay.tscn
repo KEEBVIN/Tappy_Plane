@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c62tfs6pcl4nd"]
+
+[ext_resource type="Texture2D" uid="uid://r8ghmfqcjfvr" path="res://Assets-TappyPlane/Player.png" id="1_jn304"]
+[ext_resource type="Texture2D" uid="uid://cs0pq336m4kv4" path="res://Assets-TappyPlane/Background.png" id="1_rajvj"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(402, 249)
+texture = ExtResource("1_rajvj")
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(54, 250)
+texture = ExtResource("1_jn304")
